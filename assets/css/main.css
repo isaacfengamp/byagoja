@@ -2060,7 +2060,7 @@ section {
   font-size: 26px;
   line-height: 0;
   background: rgba(255, 255, 255, 0.2);
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.2);
   border-radius: 50px;
   width: 54px;
   height: 54px;
@@ -2074,10 +2074,23 @@ section {
   z-index: 3;
   transition: 0.3s;
 }
+@media (min-width: 281px) {
+  .hero .carousel-control-next {
+    opacity: 0;
+    display: none;
+  }
+}
 
 .hero .carousel-control-prev:focus,
 .hero .carousel-control-next:focus {
-  opacity: 0.5;
+  opacity: 0;
+}
+@media (min-width: 500px) {
+  .hero .carousel-control-prev:focus,
+.hero .carousel-control-next:focus {
+    opacity: 0;
+    display: none;
+  }
 }
 
 .hero .carousel-control-prev:hover,
@@ -2086,7 +2099,7 @@ section {
 }
 
 @media (min-width: 281px) {
-  .hero .hero .social-links{
+  .hero .hero .social-links m{
       margin: 0;
       display: flex;
       align-items: center;
