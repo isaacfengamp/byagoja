@@ -693,6 +693,11 @@ section {
   position: relative;
   border-radius: 0;
 }
+@media (max-width: 575px) {
+  .constructions .card-item {
+    padding-top: 0;
+  }
+}
 
 .constructions .card-item .card-bg {
   min-height: 300px;
@@ -700,7 +705,11 @@ section {
   background-position: center;
   background-repeat: no-repeat;
 }
-
+@media (max-width: 575px) {
+  .constructions .card-item .card-bg {
+    min-height: 260px;
+  }
+}
 .constructions .card-item .card-body {
   padding: 30px;
 }
@@ -1119,6 +1128,11 @@ section {
   background-position: center center;
   min-height: 400px;
 }
+@media (max-width: 461px) {
+  .alt-services .img-bg {
+    min-height: 300px;
+  }
+}
 
 .alt-services h3 {
   font-size: 28px;
@@ -1127,6 +1141,13 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
+}
+@media (max-width: 461px) {
+  .alt-services h3 {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 15px;
+  }
 }
 
 .alt-services h3:after {
@@ -1138,6 +1159,12 @@ section {
   background: var(--color-primary);
   left: 0;
   bottom: 0;
+}
+@media (max-width: 461px) {
+  .alt-services h3:after {
+    text-align: center;
+    align-items: center;
+  }
 }
 
 .alt-services .icon-box {
@@ -1184,6 +1211,11 @@ section {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
+}
+@media (max-width: 461px) {
+  .alt-services p {
+    font-size: 15px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1345,6 +1377,12 @@ section {
     position: absolute;
     top: 0;
     right: 0;
+  }
+}
+@media (max-width: 472px) {
+  .about .about-img {
+    min-height: 400px;
+    padding-top: 0;
   }
 }
 @media (max-width: 282px) {
