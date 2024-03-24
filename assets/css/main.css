@@ -270,7 +270,11 @@ section {
 .header .logo h1 span {
   color: var(--color-primary);
 }
-
+@media (min-width: 281px) {
+  .header .logo h1 span{
+    font-size: x-small;
+  }
+}
 /*--------------------------------------------------------------
 # Desktop Navigation
 --------------------------------------------------------------*/
@@ -1188,6 +1192,12 @@ section {
     margin: 0 0 80px 0;
   }
 }
+@media (min-width: 281px) {
+  .about h2 {
+    font-size: 15px;
+    text-align: center;
+  }
+}
 
 .about .our-story {
   padding: 40px;
@@ -1930,19 +1940,19 @@ section {
 }
 @media (max-width: 500px) {
   .hero .info h2 {
-    padding-top: 30px;
+    
     font-size: 30px;
   }
 }
 @media (max-width: 398px) {
   .hero .info h2 {
-    margin-top: 20px;
+    
     font-size: 20px;
   }
 }
 @media (max-width: 350px) {
   .hero .info h2 {
-    margin-top: 20px;
+    
     font-size: 15px;
   }
 }
