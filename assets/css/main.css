@@ -270,9 +270,19 @@ section {
 .header .logo h1 span {
   color: var(--color-primary);
 }
-@media (min-width: 281px) {
+@media (max-width: 500px) {
   .header .logo h1 span{
-    font-size: x-small;
+    font-size: 20px;
+  }
+}
+@media (max-width: 400px) {
+  .header .logo h1 span{
+    font-size: 18px;
+  }
+}
+@media (max-width: 281px) {
+  .header .logo h1 span{
+    font-size: 15px;
   }
 }
 /*--------------------------------------------------------------
@@ -1192,16 +1202,16 @@ section {
     margin: 0 0 80px 0;
   }
 }
-@media (min-width: 401px) {
+@media (max-width: 401px) {
   .about h2 {
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
   }
 }
 
-@media (min-width: 281px) {
+@media (max-width: 281px) {
   .about h2 {
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
   }
 }
@@ -1229,6 +1239,37 @@ section {
   margin-bottom: 20px;
   color: var(--color-secondary);
 }
+@media (max-width: 501px) {
+  .about .our-story h3 {
+    font-size: 20px;
+    text-align: start;
+  }
+}
+@media (max-width: 281px) {
+  .about .our-story h3 {
+    font-size: 16px;
+    text-align: start;
+  }
+}
+@media (max-width: 501px) {
+  .about .our-story p {
+    font-size: 16px;
+    text-align: start;
+  }
+}
+@media (max-width: 451px) {
+  .about .our-story p {
+    font-size: 14px;
+    text-align: start;
+  }
+}
+
+@media (max-width: 281px) {
+  .about .our-story p {
+    font-size: 12px;
+    text-align: start;
+  }
+}
 
 .about .our-story p:last-child {
   margin-bottom: 0;
@@ -1245,11 +1286,35 @@ section {
   display: flex;
   align-items: center;
 }
+@media (max-width: 480px) {
+  .about ul li{
+    font-size: 16px;
+    text-align: start;
+  }
+}
+@media (max-width: 281px) {
+  .about ul li{
+    font-size: 12px;
+    text-align: start;
+  }
+}
 
 .about ul i {
   font-size: 20px;
   margin-right: 4px;
   color: var(--color-primary);
+}
+@media (max-width: 461px) {
+  .about ul i{
+    font-size: 16px;
+    text-align: start;
+  }
+}
+@media (max-width: 281px) {
+  .about ul i{
+    font-size: 12px;
+    text-align: start;
+  }
 }
 
 .about .watch-video i {
@@ -1280,6 +1345,12 @@ section {
     position: absolute;
     top: 0;
     right: 0;
+  }
+}
+@media (max-width: 282px) {
+  .about .about-img {
+    
+    height: 40vh;
   }
 }
 
@@ -2115,13 +2186,13 @@ section {
   opacity: 0.9;
 }
 
-@media (min-width: 281px) {
-  .hero .hero .social-links m{
+@media (max-width: 281px) {
+  .hero .social-links{
       margin: 0;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      font-size: 15px;
+      font-size: 10px;
       gap: 0.2rem;
   }
 }
