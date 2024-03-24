@@ -1247,7 +1247,7 @@ section {
 }
 @media (max-width: 281px) {
   .about .our-story h3 {
-    font-size: 16px;
+    font-size: 14px;
     text-align: start;
   }
 }
@@ -1259,14 +1259,14 @@ section {
 }
 @media (max-width: 451px) {
   .about .our-story p {
-    font-size: 14px;
+    font-size: 12px;
     text-align: start;
   }
 }
 
 @media (max-width: 281px) {
   .about .our-story p {
-    font-size: 12px;
+    font-size: 10px;
     text-align: start;
   }
 }
@@ -1288,7 +1288,7 @@ section {
 }
 @media (max-width: 480px) {
   .about ul li{
-    font-size: 16px;
+    font-size: 14px;
     text-align: start;
   }
 }
